@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0px;
+}
+
+input {
+  color-scheme: dark;
+}
+
+:root {
+  --rdp-accent-color: #BEF264;
+  --rdp-background-color: #BEF264;
+}
+
+
+.rdp-day_selected {
+  background-color: #BEF264;
+}
+
+.rdp-day_selected:hover {
+  background-color: #BEF264;
+}
+
